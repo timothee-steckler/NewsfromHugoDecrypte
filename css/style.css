@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@import url(components/container.css);
+@import url(components/avatar.css);
+@import url(components/button.css);
+@import url(components/card.css);
+
+
+body {
+	font-family: 'Open Sans', serif;
+	font size: 24px;
+	background-color:#F2F2F2;
+
+}
+h1 {
+	font-family:'Open Sans', serif;
+	font size: 21px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family:'Open Sans', serif;
+	font size: 21px;
+}
+
+h3{
+	font-family:'Open Sans', serif;
+	font size: 17px;
+}
+
+a{ text-decoration: none;
+color: black; 
+}
+
+
+/* Add a black background color to the top navigation bar */
+.header{
+	display: inline;
+	position: relative;
+	display: flex;
+	padding-left: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(270, 270, 270);
+  width: 90%;/* ta valeur */
+  border-radius: 0%;
+  height: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  
+  padding: 8px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 16px;
+  margin-left: -10px;
+  font-size: 15px;
+	width: 90%;
+  
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.logo{
+	margin: 10px auto;
+	width: 284px; 
+	height: 219px;
+}
+
+.sidebar{
+	width: 290px;
+	height: 1024px;
+	float: left;
+	background-color: white;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+.sidebar div{
+	margin: 10px;
+}
+.latestnews{
+	padding-left: 350px;
+}
+.latestnews img{
+	margin-right :10px;
+}
+.latestnews p{
+	font-family: 'Open Sans', serif;
+	font-weight: lighter;
+	font-size: 25px;}
+
+/*About Hugo.html*/
+
+.description{; 
+	border-radius: 4px;
+	text-align: center;	
+}
+.description p{
+	font-family: 'Open Sans', serif;
+	font-weight: lighter;
+	font-size: 17px;
+}
+.containerhugo{
+	padding-left: 300px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #333;
+  background-image: linear-gradient(90deg, rgba(251,67,162,1) 0%, rgba(250,176,7,1) 100%);
+}
+
+/*card index*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.container .haut {
+    display: flex;
+}
+
+.container .title {
+    font-family: 'Open Sans', serif;
+		font-weight: lighter;
+		font-size: 24px;
+    margin-left: 70px;
+}
+
+.container .all p {
+    color: #fc7a3e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;                                                                     
+    position: relative;
+    text-align: right;
+}
+
+.container .cards {
+    display: flex;
+    margin-left: 70px;
+ 
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    margin : 10px;
+    width: 336px ;
+    height: 110px;
+    
+}
+
+.left img {
+    height: 96px;
+    width: 96px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.right .top p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+
+.container .cards .card .right .middle p {
+    font-size: 10px;
+    color: #A3A3A3;
+    font-family: 'Open Sans';
+}
+
+.right .bottom {
+    display: flex;
+}
+
+.right .bottom .theme p {
+    font-size: 10px;
+    font-family: 'Open Sans';
+    color: #9281C0;
+    text-align: center;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #FFDFD1;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.right .bottom .heure p {
+        font-size: 10px;
+        color: #A3A3A3;
+        font-family: 'Open Sans';
+        margin-left: 30px;
+}
+
+.right img {
+    height: 10px;
+    width: 10px;
+    margin-left: 15px;
+}
+
+/*second card index video */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.bottom_page{
+  width: 1000px;
+	margin: 0 auto;
+  margin-left: 70px;
+  padding-left: 200px;
+
+}
+.bottom_page .title p {
+    font-family: 'Open Sans', serif;
+		font-weight: lighter;
+		font-size: 25px;
+		margin-left: 70px;
+}
+
+.bottom_page .videos {
+    display: inline;
+    flex-wrap: wrap;
+}
+
+.bottom_page .videos iframe {
+    border-radius: 15px;
+}
+
+.bottom_page .videos p{
+    font-size: 20px;
+}
+
+.bottom_page .videos .left {
+    margin-left: 70px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.bottom_page .videos .right {
+    text-align: left;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 91.5%;
+    right: 30%;
+}
+
+.bottom_page .videos .left p{
+    font-size: 16px;
+    font-family: 'Zen Antique Soft';
+    font-weight: bold;
+}
+
+.bottom_page .videos .right p{
+    font-size: 16px;
+    font-family: 'Zen Antique Soft';
+}
+
+.bottom_page .videos .left .theme p {
+    font-size: 10px;
+    font-family: 'Open Sans';
+    color: #9281C0;
+    text-align: center;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #FFDFD1;
+    margin-left: 15px;
+    padding: 5px;
+    width: 42px;
+    height: 14px;
+    margin-left: 250px;
+    position: absolute;
+    top: 113%;
+    left: 25%;
+}
+
+.bottom_page .videos .left .heure p {
+        font-size: 10px;
+        color: #A3A3A3;
+        font-family: 'Open Sans';
+        margin-left: 250px;
+        position: absolute;
+        top: 116.5%;
+    		left: 24%;
+}
+
+
+.bottom_page .videos .left img {
+    height: 10px;
+    width: 10px;
+    margin-left: 15px;}
+
+.bottom_page .videos .right .theme p {
+    font-size: 10px;
+    font-family: 'Open Sans';
+    color: #9281C0;
+    text-align: center;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #FFDFD1;
+    margin-left: 15px;
+    padding: 5px;
+    width: 42px;
+    height: 14px;
+    margin-left: 250px;
+    position: absolute;
+    top: 61%;
+    left: 3%;
+}
+
+.bottom_page .videos .right .heure p {
+        font-size: 10px;
+        color: #A3A3A3;
+        font-family: 'Open Sans';
+        margin-left: 250px;
+        position: absolute;
+        top: 70%;
+    		left: 0.5%;
+}
+
+
+.bottom_page .videos .right img {
+    height: 10px;
+    width: 10px;
+    margin-left: 15px;}
+
+
+/* About us */
+
+.photoaboutus{
+width: 226px;
+height: 220px;
+margin: 20px;
+border-radius: 37px;
+}
+
+.cardaboutus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containeraboutus {
+	display: flex;
+	flex-direction:column;
+}
+
+.cardaboutus h3 {
+	flex-grow: 1;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+
+.btn-right{
+	background: rgb(251,67,162);
+	background: linear-gradient(90deg, rgba(251,67,162,1) 0%, rgba(250,176,7,1) 100%);
+	border-radius: 4px;
+	padding: 10px 15px;
+	padding-top: 13px;
+	color: white;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.btn-nav{
+	background: linear-gradient(to right, rgba(251,67,162,0.5), rgba(250,176,7,0.5));
+	opacity: 100%;
+	padding: 15px 100px;
+	padding-left: 20px;
+	border-radius: 4px;
+	color: rgb(93, 63, 165);
+	font-weight: bold;	
+	display: block;
+	float: right;
+}
+.btn-leftnav{
+
+	background: linear-gradient(to right, rgba(251,67,162,0.5), rgba(250,176,7,0.5));
+	opacity: 100%;
+	padding: 15px 100px;
+	padding-left: 20px;
+	border-radius: 4px;
+	color: rgb(93, 63, 165);
+	font-weight: bold;	
+	display: block;
+}
+.btn-normal{
+	padding: 15px 100px;
+	padding-left: 20px;
+	border-radius: 4px;
+	color: #878787 ;	
+	display: block;
+
+
+
+
+
+/*
+.btn-Economy{
+	background: linear-gradient(to right, rgba(251,67,162,0.5), rgba(250,176,7,0.5));
+	opacity: 100%;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: rgb(93, 63, 165);
+	font-weight: bold;
+	float:  left;
+	vertical-align: middle;
+	
+
+}
+.btn-Politics{
+	background: linear-gradient(to right, rgba(251,67,162,0.5), rgba(250,176,7,0.5));
+	opacity: 100%;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: rgb(93, 63, 165);
+	font-weight: bold;
+	fload:  left;
+	vertical-align: bottom;
+}
+*/

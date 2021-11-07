@@ -1,0 +1,71 @@
+body {
+    background-image: images/fondnoir.jpeg
+}
+
+.background {
+    padding: 100px;
+    color: #fff;
+    font: 18px Georgia;
+    background: rgba(0, 0, 0, 0.9);
+    border: none;
+}
+.loginbox {
+  width: 300px;
+  background: white;
+  padding: 30px;
+  margin: 270px auto;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1);
+}
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  color: black;
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+ background: rgb(251,67,162);
+  background: linear-gradient(to right, rgba(251,67,162,0.5), rgba(250,176,7,0.5));
+  border-radius: 20px;
+  outline: none;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  opacity: 100%;
+}
+
+.loginbox input[type="button"]
+{
+  background: rgb(251,67,162);
+  background: linear-gradient(to right, rgba(251,67,162,0.5), rgba(250,176,7,0.5));;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: black;
+}
+
+.loginbox input[type="button"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+
+

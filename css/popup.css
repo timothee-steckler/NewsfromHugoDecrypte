@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+/* insérer le fond d'écran */
+
+.landing-page {
+    height: 100%;
+    width: 100%;
+    background: url("https://source.unsplash.com/random/1600x900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    background-position: center;
+}
+
+/* fin du fond d'écran */
+
+/* insérer la vidéo */
+
+.video-block {
+    display: flex;
+    background-color: #464646e3;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 800px;
+    border-radius: 20px;
+}
+
+/* fin de la vidéo */
